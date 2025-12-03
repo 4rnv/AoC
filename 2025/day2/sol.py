@@ -2,7 +2,7 @@ import time
 import re
 start_time = time.time()
 
-with open('bigboy.txt') as file:
+with open('input.txt') as file:
     lines = [line.rstrip() for line in file.readlines()]
 ranges = lines[0].split(',')
 invalid_IDs = []
